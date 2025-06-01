@@ -19,3 +19,11 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: snowflake_customer_purchase
+    description: "total purchase of customer"
+    columns:
+      - name: c_cust_key
+        tests:
+          - unique
+          - not null
