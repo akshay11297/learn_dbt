@@ -1,0 +1,12 @@
+learn1:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: kvc59062.us-east-1
+      user: AKSHAY10898
+      password: Maddy9663809894
+      warehouse: WORKING
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      schema: dbt_analytics
